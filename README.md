@@ -22,6 +22,6 @@ Install [IronCLI](https://github.com/iron-io/ironcli) and
 ```sh
 $ docker build -t $YOUR_DOCKERHUB_HANDLE/monger:v0 .
 $ docker push $YOUR_DOCKERHUB_HANDLE/monger:v0
-$ ironcli register $YOUR_DOCKERHUB_HANDLE/monger:v0 -host mq-host.iron.io -t $token -p $project_id
-$ ironcli worker queue $YOUR_DOCKERHUB_HANDLE/monger
+$ iron register $YOUR_DOCKERHUB_HANDLE/monger:v0 -host mq-host.iron.io -t $token -p $project_id
+$ iron worker queue $YOUR_DOCKERHUB_HANDLE/monger
 ```
