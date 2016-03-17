@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/beevik/ntp"
-	"github.com/influxdb/influxdb/client"
+	"github.com/influxdata/influxdb/client"
 	"github.com/iron-io/iron_go3/api"
 	"github.com/iron-io/iron_go3/config"
 	"github.com/iron-io/iron_go3/mq"
